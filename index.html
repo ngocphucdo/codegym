@@ -4,12 +4,15 @@
         <meta charset="utf-8">
         <title>Nike Fanboy</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="firstJS.script">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
@@ -80,12 +83,24 @@
         <div class="main">
 
             <div class="media left-main float-l ">
-              <img class="left-image align-self-center mr-3" src="file:///Users/ngocphucdo/Desktop/wp3631177.jpg" alt="Generic placeholder image">
-              <div class="media-body" style="margin-top: 15px;margin-left: 10px;">
-                <h3 class="mt-0">Nike Fanboy</h3>
-                <p>Trong xu thế nền văn hóa sát mặt đất và ngành công nghiệp thời trang đường phố đang rất phát triển tại Việt Nam, hàng trăm cửa hàng nổi lên, không hề có sự chọn lọc nhất định, kèm theo đó là một số vấn đề liên tục phát sinh khiến ta đắn đó quyết định mua item yêu thích của mình.</p>
-                <p class="mb-0">Việc tiếp cận một đôi sneakers chính hãng đối với nhiều người hiện nay vẫn là một điều khá mới lạ. Nắm bắt được điều đó, Nike Fanboy đưa ra một khung giá sản phẩm cực kỳ cạnh tranh, hầu hết đều rơi vào khoảng từ 1,000,000đ – 3,000,000đ, đó cũng chính là điểm đáng chú ý nhất để chúng tôi so sánh với những sneakers store khác trên thị trường hiện tại.</p>
-              </div>
+                <div class="media-img">
+                    <img class="left-image mr-3" src="file:///Users/ngocphucdo/Desktop/wp3631177.jpg" alt="Generic placeholder image" style="margin-top: 65px;">
+                    <div class="justify-content" style="margin-left:100px;">
+                        <p style="margin-bottom:0px;margin-left: 35px;">Đăng ký nhận thông tin</p>
+                        <div class="input-group">
+								<input type="hidden" id="contact_tags" name="contact[tags]" value="khách hàng tiềm năng, bản tin">
+								<input required="" type="email" value="" placeholder="Nhập email của bạn" name="contact[email]" aria-label="Email Address">
+								<button type="submit" class="button dark">Đăng kí</button>
+						</div>
+                    </div>
+                </div>
+                <div class="media-body" style="margin-top: 15px;margin-left: 10px;margin-right: 10px;">
+                    <h3 class="mt-0">Nike Fanboy</h3>
+                    <p style="margin-bottom: 20px;margin-top: 15px;">Trong xu thế nền văn hóa sát mặt đất và ngành công nghiệp thời trang đường phố đang rất phát triển tại Việt Nam, hàng trăm cửa hàng nổi lên, không hề có sự chọn lọc nhất định, kèm theo đó là một số vấn đề liên tục phát sinh khiến ta đắn đó quyết định mua item yêu thích của mình.</p>
+                    <p class="mb-0">Việc tiếp cận một đôi sneakers chính hãng đối với nhiều người hiện nay vẫn là một điều khá mới lạ. Nắm bắt được điều đó, Nike Fanboy đưa ra một khung giá sản phẩm cực kỳ cạnh tranh, hầu hết đều rơi vào khoảng từ 1,000,000đ – 3,000,000đ, đó cũng chính là điểm đáng chú ý nhất để chúng tôi so sánh với những sneakers store khác trên thị trường hiện tại.</p>
+                    <br>
+                    <p>Tại OSS, mọi nhu cầu tìm kiếm đều sẽ được đáp ứng, từ một đôi giày với ứng dụng riêng dành cho running, training, trekking hay đơn giản chỉ để sử dụng hằng ngày.</p>
+                </div>
             </div>
 
             <div class="right-main float-r">
@@ -93,11 +108,11 @@
                 <div class="div-product">
                     <a href="file:///Users/ngocphucdo/Code/python/codegym/product-detail.html">
                         <div>
-                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/47432185_2485094618187007_2952843746040872960_o_de75b23ef67a4420930fa96b08af6bb7_grande.jpg" alt="">
+                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/Images/nike/air-max-90-betrue-shoe.jpg" alt="">
                         </div>
                     </a>
                     <div style="margin-top: 10px;">
-                        <h6 class="text3">adidas Cloudfoam Pure 'Grey'</h6>
+                        <h6 class="text3" style="margin-bottom: 5px;">adidas Cloudfoam Pure</h6>
                         <div>
                             999,000₫
                         </div>
@@ -107,11 +122,11 @@
                 <div class="div-product">
                     <a href="file:///Users/ngocphucdo/Code/python/codegym/product-detail.html">
                         <div>
-                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/47432185_2485094618187007_2952843746040872960_o_de75b23ef67a4420930fa96b08af6bb7_grande.jpg" alt="">
+                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/Images/nike/air-max-720-betrue-shoe.jpg" alt="">
                         </div>
                     </a>
                     <div style="margin-top: 10px;">
-                        <h6 class="text3">adidas Cloudfoam Pure 'Grey'</h6>
+                        <h6 class="text3" style="margin-bottom: 5px;">adidas Cloudfoam Pure</h6>
                         <div>
                             999,000₫
                         </div>
@@ -120,11 +135,11 @@
                 <div class="div-product">
                     <a href="file:///Users/ngocphucdo/Code/python/codegym/product-detail.html">
                         <div>
-                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/47432185_2485094618187007_2952843746040872960_o_de75b23ef67a4420930fa96b08af6bb7_grande.jpg" alt="">
+                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/Images/nike/undercover-daybreak-shoe.jpg" alt="">
                         </div>
                     </a>
                     <div style="margin-top: 10px;">
-                        <h6 class="text3">adidas Cloudfoam Pure 'Grey'</h6>
+                        <h6 class="text3" style="margin-bottom: 5px;">adidas Cloudfoam Pure</h6>
                         <div>
                             999,000₫
                         </div>
@@ -133,11 +148,11 @@
                 <div class="div-product">
                     <a href="file:///Users/ngocphucdo/Code/python/codegym/product-detail.html">
                         <div>
-                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/47432185_2485094618187007_2952843746040872960_o_de75b23ef67a4420930fa96b08af6bb7_grande.jpg" alt="">
+                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/Images/nike/air-1-fear-of-god-shoe%20(1).jpg" alt="">
                         </div>
                     </a>
                     <div style="margin-top: 10px;">
-                        <h6 class="text3">adidas Cloudfoam Pure 'Grey'</h6>
+                        <h6 class="text3" style="margin-bottom: 5px;">adidas Cloudfoam Pure</h6>
                         <div>
                             999,000₫
                         </div>
@@ -146,11 +161,11 @@
                 <div class="div-product">
                     <a href="file:///Users/ngocphucdo/Code/python/codegym/product-detail.html">
                         <div>
-                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/47432185_2485094618187007_2952843746040872960_o_de75b23ef67a4420930fa96b08af6bb7_grande.jpg" alt="">
+                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/Images/nike/air-max-tailwind-iv-shoe.jpg" alt="">
                         </div>
                     </a>
                     <div style="margin-top: 10px;">
-                        <h6 class="text3">adidas Cloudfoam Pure 'Grey'</h6>
+                        <h6 class="text3" style="margin-bottom: 5px;">adidas Cloudfoam Pure</h6>
                         <div>
                             999,000₫
                         </div>
@@ -159,11 +174,11 @@
                 <div class="div-product">
                     <a href="file:///Users/ngocphucdo/Code/python/codegym/product-detail.html">
                         <div>
-                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/47432185_2485094618187007_2952843746040872960_o_de75b23ef67a4420930fa96b08af6bb7_grande.jpg" alt="">
+                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/Images/nike/air-max2-light-shoe.jpg" alt="">
                         </div>
                     </a>
                     <div style="margin-top: 10px;">
-                        <h6 class="text3">adidas Cloudfoam Pure 'Grey'</h6>
+                        <h6 class="text3" style="margin-bottom: 5px;">adidas Cloudfoam Pure</h6>
                         <div>
                             999,000₫
                         </div>
@@ -172,11 +187,11 @@
                 <div class="div-product">
                     <a href="file:///Users/ngocphucdo/Code/python/codegym/product-detail.html">
                         <div>
-                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/47432185_2485094618187007_2952843746040872960_o_de75b23ef67a4420930fa96b08af6bb7_grande.jpg" alt="">
+                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/Images/nike/benassi-jdi-betrue-slide.jpg" alt="">
                         </div>
                     </a>
                     <div style="margin-top: 10px;">
-                        <h6 class="text3">adidas Cloudfoam Pure 'Grey'</h6>
+                        <h6 class="text3" style="margin-bottom: 5px;">adidas Cloudfoam Pure</h6>
                         <div>
                             999,000₫
                         </div>
@@ -185,11 +200,11 @@
                 <div class="div-product">
                     <a href="file:///Users/ngocphucdo/Code/python/codegym/product-detail.html">
                         <div>
-                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/47432185_2485094618187007_2952843746040872960_o_de75b23ef67a4420930fa96b08af6bb7_grande.jpg" alt="">
+                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/Images/nike/air-jordan-4-retro-shoe.jpg" alt="">
                         </div>
                     </a>
                     <div style="margin-top: 10px;">
-                        <h6 class="text3">adidas Cloudfoam Pure 'Grey'</h6>
+                        <h6 class="text3" style="margin-bottom: 5px;">adidas Cloudfoam Pure</h6>
                         <div>
                             999,000₫
                         </div>
@@ -198,11 +213,11 @@
                 <div class="div-product">
                     <a href="file:///Users/ngocphucdo/Code/python/codegym/product-detail.html">
                         <div>
-                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/47432185_2485094618187007_2952843746040872960_o_de75b23ef67a4420930fa96b08af6bb7_grande.jpg" alt="">
+                            <img class="img-product" src="file:///Users/ngocphucdo/Desktop/Images/nike/air-vapormax-plus-qs-shoe.jpg" alt="">
                         </div>
                     </a>
                     <div style="margin-top: 10px;">
-                        <h6 class="text3">adidas Cloudfoam Pure 'Grey'</h6>
+                        <h6 class="text3" style="margin-bottom: 5px;">adidas Cloudfoam Pure</h6>
                         <div>
                             999,000₫
                         </div>
@@ -211,40 +226,17 @@
 
 
             </div>
-            <div>
-                <div class="area_newsletter" style="margin-left: 210px">
-						<div class="title_newsletter">
-							<h4 style="margin-left: 30px;">Đăng kí nhận tin</h4>
-						</div>
-						<div class="form_newsletter">
-							<form accept-charset="UTF-8" action="/account/contact" class="contact-form" method="post">
-                                <input name="form_type" type="hidden" value="customer">
-                                <input name="utf8" type="hidden" value="✓">
 
-							<div class="input-group">
-								<input type="hidden" id="contact_tags" name="contact[tags]" value="khách hàng tiềm năng, bản tin">
-								<input required="" type="email" value="" placeholder="Nhập email của bạn" name="contact[email]" aria-label="Email Address">
-								<button type="submit" class="button dark">Đăng kí</button>
-							</div>
-							</form>
-						</div>
-				</div>
-                <div class="area_phone_contact" style="margin-left: 225px;margin-top: 10px;">
-						<p class="number_phone">
-							<i class="fa fa-phone "></i>
-							<span>Hỗ trợ:</span>
-							<a href="tel:taken.jb@gmail.com">
-								taken.jb@gmail.com
-							</a>
-						</p>
-				</div>
-            </div>
         </div>
         <br><br><br><br><br><br>
 
         <div class="footer-copyright text-center py-3">© 2019 Copyright:
            <a href="http://www.screenprank.com/gandalf.html"> Phuc Ngan Nha</a>
         </div>
-        </div>
+</div>
+
+
+
+
     </body>
 </html>
